@@ -14,62 +14,45 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 # Aliases
 
+## Tools
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+
 ## Shortcuts
+alias l='ls -l'
 alias ll='ls -al'
-alias editgit='atom ~/.gitconfig'
-alias editbash='atom ~/.bash_profile'
-alias resource='source ~/.bash_profile && echo "Done!"'
-alias vi=vim
-alias josh=sudo
+alias pubip='wget http://ipinfo.io/ip -qO -'
 
-## Git commands
-alias log='git log'
-alias diff='git diff'
-alias branch='git branch'
-alias st='git status'
-alias fetch='git fetch'
-alias push='git push origin head'
+## Bash profile
+alias editbash='subl ~/.bash_profile'
+alias resource='source ~/.bash_profile'
+
+## Git
+alias status='git status'
+alias commit='git commit -m'
 alias pull='git pull'
-alias fp='fetch && pull'
-alias gmm='git merge master'
-alias gmghp='git merge gh-pages'
-alias recent='git for-each-ref --sort=-committerdate refs/heads/'
-alias branch_new="git for-each-ref --sort=-committerdate refs/heads/ --format='%(refname:short)'"
+alias push='git push -u origin'
+alias gitreset='git reset --soft HEAD~1'
 
-## Git branch switching
-alias master='git co master'
-alias ghp='git co gh-pages'
+## CocoaPods
+alias podi='pod install'
+alias podu='pod update'
 
-## SVN
-alias up='svn up'
-alias sst='svn st'
+## Directories
+alias home='cd ~/'
+alias xcode='cd ~/Documents/Xcode/'
+alias eas='cd ~/Documents/Xcode/Assisto/'
+alias kvn='cd ~/Documents/Xcode/KVNProgress/'
 
-## Switch repos
-DIR=~/work
-alias h='cd ~/'
-alias w='cd ${DIR}'
-alias bs='cd ${DIR}/bootstrap'
-
-## Core GitHub apps
-alias gh='cd ~/github'
-alias gg='cd ~/github/github'
-alias ggg='gg && script/server'
-alias giants='cd ~/github/giants'
-alias hire='cd ~/github/hire'
-alias summit='cd ~/github/summit'
-alias primer='cd ~/github/primer'
-
-## Server guick starts
-alias ss='script/server'
-alias js='jekyll serve --watch'
-alias ps='python -m SimpleHTTPServer 4000'
-alias gtest='testrb test/integration/bundle_test.rb'
+## Fastlane
+alias fl="fastlane"
+alias fla="fastlane action"
+alias flas="fastlane actions"
 
 ## Mobile iOS testing
 alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+cd /Users/kevin/Documents/Xcode/
+clear
