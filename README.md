@@ -25,6 +25,11 @@
 
 ### 3. Prep Xcode
 
+- Load the custom key bindings:
+   1. Put [`Kevin's.idekeybindings`](Kevin's.idekeybindings) into `/Users/[username]/Library/Developer/Xcode/UserData/KeyBindings`
+   2. Quit and reopen Xcode
+   3. Go to **Preferences**, then to **Key Bindings** tabs
+   4. Select **Kevin's** Key Bindings Set.
 - Load up the custom Dark color scheme (instructions [below](#dark-color-scheme-for-xcode))
 
 ### 4. Secure Git(Hub) access
@@ -75,7 +80,7 @@ This is a Xcode color scheme custom made.
 ### Usage
 
 1. Download this repo.
-2. Open up Finder, go to `/Users/[user_name]/Library/Developer/Xcode/UserData/FontAndColorThemes` folder.
+2. Open up Finder, go to `/Users/[username]/Library/Developer/Xcode/UserData/FontAndColorThemes` folder.
 3. Copy paste the [`Dark.xccolortheme`](Dark.xccolortheme) file there.
 4. Quit and reopen Xcode.
 5. Go to **Preferences**, then to **Fonts and colors** tabs.
