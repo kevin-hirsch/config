@@ -17,25 +17,29 @@
 - Download and install latest version of Xcode from the Mac App Store.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
 
-### 2. Prep Terminal.app
+### 2. Prep Terminal
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load up the Ocean theme (instructions [below](#ocean-theme-for-terminal))
 
-### 3. Secure Git(Hub) access
+### 3. Prep Xcode
+
+- Load up the custom Dark color scheme (instructions [below](#dark-color-scheme-for-xcode))
+
+### 4. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. Install Homebrew
+### 5. Install Homebrew
 
 - Install [Homebrew](http://brew.sh) with the following command:
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### 5. Setup Ruby
+### 6. Setup Ruby
 
 - Install rbenv via Homebrew: `brew install rbenv`.
 - Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
@@ -43,7 +47,7 @@
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
-### 6. Additional dependencies
+### 7. Additional dependencies
 
 - Install node via Homebrew: `brew install node`.
 
@@ -51,7 +55,7 @@
 
 <img src="https://cloud.githubusercontent.com/assets/98681/5622107/93364f60-94f2-11e4-9deb-7b1476b50b52.png" width="762">
 
-This is a quick Terminal.app profile (color scheme) for OS X based on the [base16 Ocean theme](http://chriskempson.github.io/base16/#ocean).
+This is a quick Terminal profile (color scheme) for OS X based on the [base16 Ocean theme](http://chriskempson.github.io/base16/#ocean).
 
 If you like this theme, be sure to check out the [editor color schemes](https://github.com/chriskempson/base16-textmate) and [Spacegray UI theme](http://kkga.github.io/spacegray/) for Atom and Sublime Text.
 
@@ -59,8 +63,23 @@ If you like this theme, be sure to check out the [editor color schemes](https://
 
 1. Download this repo.
 2. Open up Terminal, go to **Preferences**, then **Profiles**.
-3. In the bottom left, click the settings cog and select **Import...**. Navigate to the download file and open it.
+3. In the bottom left, click the settings cog and select **Import...**. Navigate to the terminal-ocean-dark.terminal [`Dark.xccolortheme`](Dark.xccolortheme) file and open it.
 4. Lastly, set it as your default by selecting the new profile and clicking the **Default** button.
+
+## Dark Color Scheme For Xcode
+
+![Xcode color scheme](theme_preview.png)
+
+This is a Xcode color scheme custom made.
+
+### Usage
+
+1. Download this repo.
+2. Open up Finder, go to `/Users/[user_name]/Library/Developer/Xcode/UserData/FontAndColorThemes` folder.
+3. Copy paste the [`Dark.xccolortheme`](Dark.xccolortheme) file there.
+4. Quit and reopen Xcode.
+5. Go to **Preferences**, then to **Fonts and colors** tabs.
+6. Select **Dark** theme.
 
 ## Use it yourself
 
