@@ -52,7 +52,32 @@
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
-### 7. Additional dependencies
+### 7. Useful apps
+
+#### Tools
+
+- [SourceTree](https://www.sourcetreeapp.com): a visual Git client
+- [Sublime Text](https://www.sublimetext.com): a sophisticated text editor for code, markup and prose
+- [Postman](https://www.getpostman.com): a swiss army knife of API tools, allowing you to design, build, test, document and monitor your services, all in one place
+- [MacDown](http://macdown.uranusjr.com) is a Markdown editor and previewer
+- [Knuff](https://github.com/KnuffApp/Knuff): a debug application for Apple Push Notification Service
+- [QuickRadar](http://www.quickradar.com): a tool to improve bug report flow to Apple
+
+#### Communication
+
+- [Polymail](https://polymail.io): a powerful platform for email productivity
+- [Slack](https://slack.com): a real-time messaging, archiving and search for modern teams
+
+#### Design
+
+- [Sketch](https://www.sketchapp.com): a professional digital design app for Mac
+- [Zeplin](https://zeplin.io): a collaboration app for UI designers and frontend developers
+
+#### Miscelleanous
+
+- [Flux](https://justgetflux.com): a tool that adapts the color of your computer's display to the time of the day
+
+### 8. Additional dependencies
 
 - Install node via Homebrew: `brew install node`.
 
