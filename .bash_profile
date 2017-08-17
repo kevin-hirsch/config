@@ -39,20 +39,19 @@ alias podu='pod update'
 
 ## Directories
 alias home='cd ~/'
-alias xcode='cd ~/Documents/Xcode/'
-alias eas='cd ~/Documents/Xcode/Assisto/'
-alias kvn='cd ~/Documents/Xcode/KVNProgress/'
+alias docs='cd ~/Documents'
+alias ios='cd ~/Documents/iOS/'
 
 ## Fastlane
 alias fl="fastlane"
 alias fla="fastlane action"
 alias flas="fastlane actions"
-
-## Mobile iOS testing
-alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+alias befl="bundle exec fastlane"
+alias befla="bundle exec fastlane action"
+alias beflas="bundle exec fastlane actions"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-cd /Users/kevin/Documents/Xcode/
+cd /Users/khirsch/Documents/iOS/
 clear
