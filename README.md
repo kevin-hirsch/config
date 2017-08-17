@@ -22,6 +22,7 @@
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load up the Ocean theme (instructions [below](#ocean-theme-for-terminal))
+- Set up syntax highlighting by running `cd ~ ; vi .vimrc` then saving the file with `syntax on`
 
 ### 3. Prep Xcode
 
