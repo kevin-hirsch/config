@@ -112,6 +112,12 @@ This is a Xcode color scheme custom made.
 5. Go to **Preferences**, then to **Fonts and colors** tabs.
 6. Select **Dark** theme.
 
+## Dark Color Scheme For Slack
+
+<img src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png" width="762">
+
+https://github.com/caiceA/slack-black-theme
+
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
