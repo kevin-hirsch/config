@@ -118,6 +118,12 @@ This is a Xcode color scheme custom made.
 
 https://github.com/caiceA/slack-black-theme
 
+## Screensaver: Aerial ✨
+
+https://github.com/JohnCoates/Aerial
+
+<img src="https://cloud.githubusercontent.com/assets/499192/10754100/c0e1cc4c-7c95-11e5-9d3b-842d3acc2fd5.gif" width="762">
+
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
